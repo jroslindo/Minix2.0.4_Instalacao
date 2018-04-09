@@ -1,0 +1,11 @@
+ata0-master: type=disk, path=minix.img, cylinders=200, heads=16, spt=32
+log: bochsout.txt
+panic: action=ask
+error: action=report
+info: action=report
+debug: action=ignore
+
+boot: disk
+
+#floppya: 1_44=vfloppya.img, status=inserted
+#floppyb: 1_44=vfloppyb.img, status=inserted
